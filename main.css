@@ -1,0 +1,41 @@
+.shape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background: #FFF;
+    color: #000;
+    position: absolute;
+
+    view-transition-name: shape;
+}
+
+.ball {
+    top: 20%;
+    left: 20%;
+
+    border-radius: 50%;
+    background: lightcoral;
+}
+
+.block {
+    top: 20%;
+    left: 50%;
+    background: skyblue;
+}
+
+.gem {
+    top: 50%;
+    left: 50%;
+    background: greenyellow;
+    transform: rotate(45deg);
+}
+
+.rectangle {
+    top: 50%;
+    left: 10%;
+    background: purple;
+    color: #FFF;
+    width: 200px;
+}

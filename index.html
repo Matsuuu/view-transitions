@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Matsu Setup</title>
+        <meta charset="UTF-8" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./main.css">
+        <style>
+            html, body {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                width: 100%;
+                font-family: 'Rubik', sans-serif;
+            }
+            body {
+                background: #093028;  /* fallback for old browsers */
+                background: -webkit-linear-gradient(to right, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            }
+
+            ul {
+                list-style: none;
+            }
+
+            ul a {
+                color: #FFF;
+                text-decoration: none;
+            }
+
+            ul a:focus {
+                font-weight: bold;
+            }
+        </style>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="./import-mapper.js"></script>
+    </head>
+    <body>
+        <ul>
+            <li><a href="/">Ball</a></li>
+            <li><a href="/block">Block</a></li>
+            <li><a href="/gem">Gem</a></li>
+            <li><a href="/rectangle">Rectangle</a></li>
+        </ul>
+        <suunta-view></suunta-view>
+        <script type="module" src="src/index.js"></script>
+    </body>
+</html>
