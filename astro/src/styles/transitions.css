@@ -1,0 +1,11 @@
+@view-transition {
+    navigation: auto;
+}
+
+.blog-post .title h1 {
+    view-transition-name: blog-title;
+}
+
+.blog-post .hero-image img {
+    view-transition-name: blog-image;
+}

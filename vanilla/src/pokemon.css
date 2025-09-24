@@ -1,0 +1,145 @@
+/* ---------- */
+
+/* ---------- */
+
+/* ---------- */
+
+/* ---------- */
+
+/* ---------- */
+
+/* ---------- */
+
+/* ---------- */
+
+/* ---------- */
+
+/* ---------- */
+
+/* ---------- */
+
+/* ---------- */
+
+/* ---------- */
+
+/* BORIIIING */
+/* @view-transition { */
+/*     navigation: auto; */
+/* } */
+
+@font-face {
+    font-family: "PokemonEmerald";
+    src: url("./pokemon-emerald.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    font-family: "PokemonEmerald";
+}
+
+body,
+html {
+    font-family: "PokemonEmerald";
+}
+
+.pc {
+    width: 840px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-label {
+    width: 410px;
+    height: 4rem;
+    margin-bottom: 1rem;
+    background-image: url("/box-background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    border: 6px solid #274d48;
+    border-radius: 4px;
+    text-shadow: 3px 2px black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    max-width: 960px;
+
+    background-image: url("/pc-background.png");
+    background-size: 48rem;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.box > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    --size: 0rem;
+    width: var(--size);
+    height: var(--size);
+    position: relative;
+
+    appearance: none;
+}
+
+label {
+    display: flex;
+    position: relative;
+}
+
+.poke-label {
+    height: 5rem;
+    width: 6rem;
+}
+
+.poke-label img {
+    height: 10rem;
+    object-fit: cover;
+    object-position: -3rem -4.5rem;
+}
+
+label:has(input:checked)::after {
+    content: "";
+    display: inline-block;
+    --size: 2.4rem;
+    width: var(--size);
+    height: calc(var(--size) * 1.2);
+
+    background-image: url("/hand-2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: -1rem;
+    right: calc(var(--size) * 0.35);
+    animation: 1s ease-in-out hover;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hover {
+    0% {
+        top: -1rem;
+    }
+
+    50% {
+        top: -1.2rem;
+    }
+    100% {
+        top: -1rem;
+    }
+}

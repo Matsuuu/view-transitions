@@ -1,0 +1,75 @@
+/* ---------- */
+
+/* ---------- */
+
+/* ---------- */
+
+/* ---------- */
+
+/* ---------- */
+
+/* ---------- */
+
+/* ---------- */
+
+/* ---------- */
+
+/* ---------- */
+
+/* ---------- */
+
+/* ---------- */
+
+/* ---------- */
+
+/* BORIIIING */
+
+:root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color: #213547;
+    background-color: #ffffff;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+.comic {
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: blueviolet;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+button,
+.button {
+    color: #242424;
+    background: #e4e4e4;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+.joyful {
+    background: salmon;
+    font-size: 1.4rem;
+}
