@@ -114,4 +114,4 @@ export class MyElement extends LitElement {
     }
 }
 
-window.customElements.define("my-elementt", MyElement);
+window.customElements.define("my-element", MyElement);

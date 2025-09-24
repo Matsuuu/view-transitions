@@ -55,13 +55,13 @@ async function renderPokemons() {
         input.type = "radio";
         input.name = "pokemon";
 
-        input.addEventListener("click", e => {
-            e.preventDefault();
+        // input.addEventListener("click", e => {
+        //     e.preventDefault();
 
-            document.startViewTransition(() => {
-                input.checked = true;
-            });
-        });
+        //     document.startViewTransition(() => {
+        //         input.checked = true;
+        //     });
+        // });
 
         label.appendChild(img);
         label.appendChild(input);
