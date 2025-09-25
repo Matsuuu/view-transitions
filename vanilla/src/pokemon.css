@@ -1,3 +1,10 @@
+@view-transition {
+    navigation: auto;
+}
+
+label::after {
+    view-transition-name: pointer;
+}
 /* ---------- */
 
 /* ---------- */

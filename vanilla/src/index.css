@@ -1,6 +1,19 @@
-/* @view-transition { */
-/*     navigation: auto; */
-/* } */
+@view-transition {
+    navigation: auto;
+}
+
+::view-transition-group(root) {
+    animation-duration: 5s;
+}
+
+::view-transition-group(title) {
+    animation-duration: 3s;
+    background: red;
+}
+
+h1 {
+    view-transition-name: title;
+}
 
 /*
 
